@@ -77,16 +77,13 @@
 	        			<a class="nav-link" href="#">About</a>
 	      			</li> 
 	    		</ul>
-	    		
-	    		<ul class='nav navbar-nav navbar-right'>
-					<li>
-						<form class='navbar-form' action='#' method='POST'>
-							<input type='text' class='form-control' placeholder='Search the site'>
-							<button type='submit' class='btn-primary'>
-								<span class='fa fa-search'></span>
-							</button>
-					</li>
-				</ul>
+ 
+ 				<form class="form-inline my-2 my-lg-0" action='#' method='POST'>
+					<input class="form-control mr-sm-2" type="search the site" placeholder="Search" aria-label="Search">
+      				<button type='submit' class='btn-primary'>
+							<span class='fa fa-search'></span>
+						</button>
+    			</form>	    		
 	  		</div> 
 	  	</div>
 	</nav>
@@ -118,7 +115,7 @@
 	</main>
 	<!-- FOOTER -->
 	<footer class='text-center'>
-		<nav class='navbar-inverse navbar-bottom'>
+		<nav class='navbar navbar-expand-md bg-dark navbar-dark'>
 			<div class='container-fluid'>
 				<ul class='nav navbar-nav'>
 					<li class='navbar-text'>Copyight &copy; Marko Embreuš</li>
@@ -136,10 +133,9 @@
 	<!-- JAVASCRIPT -->
 	
 	<!--JQuery-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>	
+	<script src="js/jquery.min.js"></script>
 	
 	<!-- Latest compiled and minified JavaScript -->	
-<!--	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>-->
 	<script src="js/bootstrap.min.js"></script>
 	<!--Custom css-->	
 </body>
