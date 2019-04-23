@@ -117,15 +117,17 @@
 	<footer class='text-center'>
 		<nav class='navbar navbar-expand-md bg-dark navbar-dark'>
 			<div class='container-fluid'>
-				<ul class='nav navbar-nav'>
+				<ul class='nav navbar-nav navbar-left'>
 					<li class='navbar-text'>Copyight &copy; Marko Embreuš</li>
-					<li><a href='#'><i class='fab fa-facebook'></i></a></li>
-					<li><a href='#'><i class='fab fa-google-plus-square'></i></a></li>
-					<li><a href='#'><i class='fas fa-envelope'></i></a></li>
+				</ul>
+				<ul class='nav navbar-nav navbar-center'>
+					<a class="nav-link" href='#'><i class='fab fa-facebook'></i></a>
+					<a class="nav-link" href='#'><i class='fab fa-google-plus-square'></i></a>
+					<a class="nav-link" href='#'><i class='fas fa-envelope'></i></a>
 				</ul>
 				<ul class='nav navbar-nav navbar-right'>
-					<li><a href='#'><i class='fas fa-sitemap'></i></a></li>
-					<li><a href='#'>Terms &amp; Conditions</a></li>					
+					<a class="nav-link" href='#'><i class='fas fa-sitemap'></i></a>
+					<a class="nav-link" href='#'>Terms &amp; Conditions</a>				
 				</ul>
 			</div>
 		</nav>
