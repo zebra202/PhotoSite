@@ -103,7 +103,7 @@
 	<!-- JAVASCRIPT -->
 	
 	<!--JQuery-->
-	<script src="js/jquery.min.js"></script>
+	<script src="assets/jquery/jquery.min.js"></script>
 	<!-- Bootstrap -->	
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<!-- fontawesome -->
